@@ -13,6 +13,8 @@ public static void main(String[] args) {
 
 public static int divToY2 (int x, int y) {
 
+    if (y==0)
+        return -1; // we cannot return error string, so it's better to return irrational number and take it from there
 
     int total = 0;
     int res = 0;
